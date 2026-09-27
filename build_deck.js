@@ -296,9 +296,9 @@ function card(s, x, y, w, h) {
     "Mutual information (exploration notebook): scikit-learn 1.9.0. https://scikit-learn.org",
     "Slides built with PptxGenJS. https://gitbrent.github.io/PptxGenJS/",
     "AI assistance: Claude (Anthropic), https://www.anthropic.com/claude – see AI Declaration slide",
-    "Source code (GitHub): [add your repository URL – eda_spaceship_titanic.py, spaceship-titanic_corrected.ipynb, make_charts.py, build_deck.js]",
+    "Source code (GitHub): https://github.com/Leon6112003/csc345-spaceship-titanic-eda",
   ], { x: 0.6, y: 1.95, w: 12.1, h: 4.8 }, 16);
-  s.addNotes("~5 s. The rubric asks for the concept idea, visualization techniques, the plot tool, and a GitHub link to the code. Add the GitHub URL before submitting.");
+  s.addNotes("~5 s. The rubric asks for the concept idea, visualization techniques, the plot tool, and a GitHub link to the code.");
 }
 
 pres.writeFile({ fileName: "CSC345_Phase1_SpaceshipTitanic.pptx" }).then((f) => console.log("wrote", f));
