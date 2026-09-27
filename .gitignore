@@ -1,0 +1,13 @@
+# Personal data: team names, student IDs (see team.example.json)
+team.json
+# Deck output files contain names and IDs
+*.pptx
+*.pdf
+# Kaggle data is not redistributed: download it from the competition page
+*.csv
+# Local tooling
+node_modules/
+.claude/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

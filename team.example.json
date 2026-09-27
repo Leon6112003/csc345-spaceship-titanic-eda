@@ -1,0 +1,26 @@
+{
+  "members": [
+    [
+      "Member name",
+      "Student ID"
+    ],
+    [
+      "Member name",
+      "Student ID"
+    ],
+    [
+      "Member name",
+      "Student ID"
+    ],
+    [
+      "Member name",
+      "Student ID"
+    ],
+    [
+      "Member name",
+      "Student ID"
+    ]
+  ],
+  "date": "[date]",
+  "ai_tool2": "[none / add any other AI tool used]"
+}

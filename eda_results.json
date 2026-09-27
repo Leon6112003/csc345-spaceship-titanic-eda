@@ -1,0 +1,356 @@
+{
+  "rows": 8693,
+  "cols": 14,
+  "missing_by_col": {
+    "PassengerId": 0,
+    "HomePlanet": 201,
+    "CryoSleep": 217,
+    "Cabin": 199,
+    "Destination": 182,
+    "Age": 179,
+    "VIP": 203,
+    "RoomService": 181,
+    "FoodCourt": 183,
+    "ShoppingMall": 208,
+    "Spa": 183,
+    "VRDeck": 188,
+    "Name": 200,
+    "Transported": 0
+  },
+  "missing_pct_by_col": {
+    "PassengerId": 0.0,
+    "HomePlanet": 2.3,
+    "CryoSleep": 2.5,
+    "Cabin": 2.3,
+    "Destination": 2.1,
+    "Age": 2.1,
+    "VIP": 2.3,
+    "RoomService": 2.1,
+    "FoodCourt": 2.1,
+    "ShoppingMall": 2.4,
+    "Spa": 2.1,
+    "VRDeck": 2.2,
+    "Name": 2.3,
+    "Transported": 0.0
+  },
+  "rows_with_any_missing": 2087,
+  "duplicate_ids": 0,
+  "target_share_true": 50.4,
+  "age_zero": 178,
+  "age_min_max_median": [
+    0.0,
+    79.0,
+    27.0
+  ],
+  "vip_share": 2.3,
+  "spend_median": {
+    "RoomService": 0.0,
+    "FoodCourt": 0.0,
+    "ShoppingMall": 0.0,
+    "Spa": 0.0,
+    "VRDeck": 0.0
+  },
+  "spend_max": {
+    "RoomService": 14327.0,
+    "FoodCourt": 29813.0,
+    "ShoppingMall": 23492.0,
+    "Spa": 22408.0,
+    "VRDeck": 24133.0
+  },
+  "spend_zero_pct": {
+    "RoomService": 65.5,
+    "FoodCourt": 64.1,
+    "ShoppingMall": 65.8,
+    "Spa": 62.6,
+    "VRDeck": 64.6
+  },
+  "cryo_with_positive_spend": 0,
+  "cryo_spend_nan_cells": 361,
+  "kids_with_positive_spend": 0,
+  "kids_n": 806,
+  "kids_spend_nan_cells_filled": 45,
+  "spend_cells_filled_total": 406,
+  "spend_nan_cells_after_rules": 537,
+  "viz1": {
+    "Awake, age 13+, spent 0": {
+      "rate": 36.2,
+      "n": 94
+    },
+    "Awake, child <=12": {
+      "rate": 68.2,
+      "n": 406
+    },
+    "Awake, spent > 0": {
+      "rate": 30.1,
+      "n": 4432
+    },
+    "In CryoSleep": {
+      "rate": 81.8,
+      "n": 3037
+    }
+  },
+  "viz1_excluded_rows": 724,
+  "viz1_excluded_rate": 34.3,
+  "awake0_child_share": 80.1,
+  "cryo_rate": 81.8,
+  "awake_rate": 32.9,
+  "viz2": [
+    {
+      "deck": "A",
+      "side": "P",
+      "rate": 43.6,
+      "n": 117
+    },
+    {
+      "deck": "A",
+      "side": "S",
+      "rate": 54.7,
+      "n": 139
+    },
+    {
+      "deck": "B",
+      "side": "P",
+      "rate": 67.4,
+      "n": 353
+    },
+    {
+      "deck": "B",
+      "side": "S",
+      "rate": 78.4,
+      "n": 426
+    },
+    {
+      "deck": "C",
+      "side": "P",
+      "rate": 58.1,
+      "n": 341
+    },
+    {
+      "deck": "C",
+      "side": "S",
+      "rate": 76.4,
+      "n": 406
+    },
+    {
+      "deck": "D",
+      "side": "P",
+      "rate": 40.3,
+      "n": 248
+    },
+    {
+      "deck": "D",
+      "side": "S",
+      "rate": 46.5,
+      "n": 230
+    },
+    {
+      "deck": "E",
+      "side": "P",
+      "rate": 34.3,
+      "n": 429
+    },
+    {
+      "deck": "E",
+      "side": "S",
+      "rate": 37.1,
+      "n": 447
+    },
+    {
+      "deck": "F",
+      "side": "P",
+      "rate": 41.1,
+      "n": 1438
+    },
+    {
+      "deck": "F",
+      "side": "S",
+      "rate": 47.1,
+      "n": 1356
+    },
+    {
+      "deck": "G",
+      "side": "P",
+      "rate": 44.8,
+      "n": 1276
+    },
+    {
+      "deck": "G",
+      "side": "S",
+      "rate": 58.4,
+      "n": 1283
+    },
+    {
+      "deck": "T",
+      "side": "P",
+      "rate": 25.0,
+      "n": 4
+    },
+    {
+      "deck": "T",
+      "side": "S",
+      "rate": 0.0,
+      "n": 1
+    }
+  ],
+  "side_gap_by_deck": {
+    "A": 11.1,
+    "B": 11.0,
+    "C": 18.3,
+    "D": 6.2,
+    "E": 2.9,
+    "F": 6.0,
+    "G": 13.6,
+    "T": -25.0
+  },
+  "side_rate": {
+    "P": 45.1,
+    "S": 55.5
+  },
+  "deck_rate": {
+    "A": 49.6,
+    "B": 73.4,
+    "C": 68.0,
+    "D": 43.3,
+    "E": 35.7,
+    "F": 44.0,
+    "G": 51.6,
+    "T": 20.0
+  },
+  "deck_n": {
+    "F": 2794,
+    "G": 2559,
+    "E": 876,
+    "B": 779,
+    "C": 747,
+    "D": 478,
+    "A": 256,
+    "T": 5
+  },
+  "viz2_excluded_rows": 204,
+  "no_cabin_rate": 50.3,
+  "planet_deck": {
+    "Earth/E": {
+      "rate": 37.2,
+      "n": 395
+    },
+    "Earth/F": {
+      "rate": 29.2,
+      "n": 1614
+    },
+    "Earth/G": {
+      "rate": 51.8,
+      "n": 2498
+    },
+    "Europa/A": {
+      "rate": 49.6,
+      "n": 252
+    },
+    "Europa/B": {
+      "rate": 73.4,
+      "n": 766
+    },
+    "Europa/C": {
+      "rate": 67.7,
+      "n": 734
+    },
+    "Europa/D": {
+      "rate": 58.6,
+      "n": 186
+    },
+    "Europa/E": {
+      "rate": 54.7,
+      "n": 128
+    },
+    "Europa/T": {
+      "rate": 25.0,
+      "n": 4
+    },
+    "Mars/D": {
+      "rate": 33.3,
+      "n": 282
+    },
+    "Mars/E": {
+      "rate": 26.1,
+      "n": 330
+    },
+    "Mars/F": {
+      "rate": 65.0,
+      "n": 1110
+    }
+  },
+  "side_rate_by_planet": {
+    "Earth": {
+      "P": 36.9,
+      "S": 48.1
+    },
+    "Europa": {
+      "P": 60.3,
+      "S": 70.7
+    },
+    "Mars": {
+      "P": 50.0,
+      "S": 54.9
+    }
+  },
+  "rate_by_HomePlanet": {
+    "Earth": 42.4,
+    "Europa": 65.9,
+    "Mars": 52.3
+  },
+  "rate_by_Destination": {
+    "55 Cancri e": 61.0,
+    "PSO J318.5-22": 50.4,
+    "TRAPPIST-1e": 47.1
+  },
+  "rate_by_VIP": {
+    "false": 50.6,
+    "true": 38.2
+  },
+  "rate_by_age": {
+    "0-12": 70.0,
+    "13-17": 55.3,
+    "18-25": 45.8,
+    "26-40": 48.0,
+    "41-60": 49.5,
+    "61+": 47.3
+  },
+  "rate_by_groupsize": {
+    "1": 45.2,
+    "2": 53.8,
+    "3": 59.3,
+    "4": 64.1,
+    "5": 59.2,
+    "6": 61.5,
+    "7": 54.1,
+    "8": 39.4
+  },
+  "rate_alone_vs_group": {
+    "false": 45.2,
+    "true": 56.7
+  },
+  "cryo_share_by_planet": {
+    "Earth": 30.0,
+    "Europa": 42.7,
+    "Mars": 38.0
+  },
+  "decks_by_planet": {
+    "Earth": {
+      "G": 2498,
+      "F": 1614,
+      "E": 395
+    },
+    "Europa": {
+      "B": 766,
+      "C": 734,
+      "A": 252,
+      "D": 186,
+      "E": 128,
+      "T": 4
+    },
+    "Mars": {
+      "F": 1110,
+      "E": 330,
+      "D": 282
+    }
+  }
+}
